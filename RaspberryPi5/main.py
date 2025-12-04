@@ -9,7 +9,7 @@ import time
 BROKER_ADDRESS = "172.20.10.9" 
 TOPIC = "robotica/frutas"
 
-# Umbral de confianza para considerar válida la detección (75%)
+# Umbral de confianza para considerar válida la detección de madurez(75%)
 CONF_UMBRAL = 0.75 
 # =================================================
 

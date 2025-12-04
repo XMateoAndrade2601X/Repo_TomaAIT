@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 # Importante: paho-mqtt<2.0.0 evita errores de compatibilidad
 RUN pip install --no-cache-dir ultralytics opencv-python pyserial "paho-mqtt<2.0.0"
 
-# 3. Copiar los archivos del proyecto al contenedor
+# 3. Copiar los archivos del proyecto al contenedorr
 COPY best.pt .
 COPY main.py .
 

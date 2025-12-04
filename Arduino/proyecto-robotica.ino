@@ -121,7 +121,7 @@ void loop() {
             delay(10);
           }
 
-          Serial.print("📩 Clasificación: "); Serial.println(clasificacion);
+          Serial.print("📩 Clasificación:  "); Serial.println(clasificacion);
 
           // === ACTUACIÓN SERVOS ===
           motorCinta.setSpeed(VELOCIDAD_TRABAJO);

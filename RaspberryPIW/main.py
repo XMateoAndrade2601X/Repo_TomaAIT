@@ -6,7 +6,7 @@ from umqtt.simple import MQTTClient
 # ================= CONFIGURACIÓN =================
 SSID = "iPhone de Joe Jose"       # <--- PON TU WIFI EXACTO
 PASSWORD = "jugodemaracuya"     # <--- PON TU CLAVE EXACTA
-BROKER_IP = "172.20.10.9"       # <--- LA IP DE TU LAPTOP
+BROKER_IP = "172.20.10.9"       # <--- LA IP DE TU LAPTOPp
 TOPIC = "robotica/frutas"       # El canal que escucha
 # =================================================
 
